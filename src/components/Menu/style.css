@@ -7,3 +7,11 @@
 .menu h2 {
   width: 100vw;
 }
+
+@media (max-width: 800px) {
+  .menu {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}

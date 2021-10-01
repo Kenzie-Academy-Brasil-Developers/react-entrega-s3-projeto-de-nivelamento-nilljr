@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 8vw;
-  height: 15vh;
+  height: 20vh;
   border: 3px solid rgb(143, 143, 143);
   padding: 10px;
   margin: 10px;
@@ -24,4 +24,11 @@
 .card p {
   font-size: 12px;
   color: darkgray;
+}
+
+@media (max-width: 800px) {
+  .card {
+    max-width: 60vw;
+    height: 25vh;
+  }
 }

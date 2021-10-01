@@ -24,9 +24,15 @@
 }
 
 .kart span {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bolder;
   color: white;
   width: 90vw;
   margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .kart h3 {
+    font-size: 15px;
+  }
 }

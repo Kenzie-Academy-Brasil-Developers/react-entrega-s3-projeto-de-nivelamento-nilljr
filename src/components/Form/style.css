@@ -32,3 +32,13 @@ button {
   margin: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .form {
+    width: 100vw;
+  }
+
+  input {
+    width: 70vw;
+  }
+}
