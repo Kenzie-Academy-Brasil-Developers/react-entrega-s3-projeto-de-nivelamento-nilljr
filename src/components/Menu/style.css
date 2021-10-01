@@ -1,0 +1,9 @@
+.menu {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.menu h2 {
+  width: 100vw;
+}
